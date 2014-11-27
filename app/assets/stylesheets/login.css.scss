@@ -1,0 +1,29 @@
+@import "variables";
+
+body{
+  background: url('earth.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+h1, h2{
+  //line-height: 0px;
+  margin: 0;
+}
+
+#login-container{
+  width: 500px;
+  text-align: center;
+}
+
+
+.jumbotron{
+  border-radius: 10px;
+  position: unset;
+  background-color: $principal-container;
+  left: 400px;
+  margin-top: 20px;
+}
